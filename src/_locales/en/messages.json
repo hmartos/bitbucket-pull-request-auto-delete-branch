@@ -1,0 +1,11 @@
+
+{
+  "extensionTitle": {
+    "message": "Bitbucket Pull Request auto delete branch",
+    "description": "The title of the extension"
+  },
+  "extensionDescription": {
+    "message": "Automatically checks the checkbox to delete the current branch after the pull request is merged on Bitbucket Cloud.",
+    "description": "The description of the extension"
+  }
+}

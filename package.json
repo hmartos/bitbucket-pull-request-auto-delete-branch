@@ -1,0 +1,33 @@
+{
+  "name": "bitbucket-pull-request-auto-delete-branch",
+  "version": "0.0.1",
+  "description": "Hide movies or series from 'Continue Watching' list.",
+  "main": "src/manifest.json",
+  "scripts": {
+    "build": "rm -f bitbucket-pull-request-auto-delete-branch.zip && npm run prettier-check && npm run zip",
+    "zip": "bestzip bitbucket-pull-request-auto-delete-branch.zip src/*",
+    "prettier-check": "prettier --check './src/**/*.html' './src/**/*.css' './src/**/*.js' './test/**/*.js'",
+    "prettier-format": "prettier --write './src/**/*.html' './src/**/*.css' './src/**/*.js' './test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch.git"
+  },
+  "keywords": [
+    "bitbucket",
+    "pull request",
+    "PR",
+    "branch",
+    "delete"
+  ],
+  "author": "hmartos <hectormartosg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/issues"
+  },
+  "homepage": "https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch#readme",
+  "devDependencies": {
+    "bestzip": "^2.1.4",
+    "prettier": "^1.19.1"
+  }
+}
