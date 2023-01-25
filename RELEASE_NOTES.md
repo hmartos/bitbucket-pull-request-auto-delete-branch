@@ -32,3 +32,9 @@ Example:
 ### New Features
 
 - First fully functional version
+
+## 0.2.0
+
+### Bug Fixes
+
+- Fixes bug with checkbox not being checked on slow connections
