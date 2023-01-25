@@ -4,19 +4,11 @@
   <h1 align="center">Bitbucket Pull Request auto delete branch</h1>
 
   <h4 align="center">Automatically checks the checkbox to delete the current branch after the pull request is merged on Bitbucket Cloud</h4>
-
-  <p align="center">
-    <a href="https://chrome.google.com/webstore/detail/bckfpnenhimfckndcceonmkhheinmkob?utm_source=github"><strong>Install for Google Chrome &raquo;</strong></a>
-  </p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/actions"><img alt="GitHub Actions status" src="https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/workflows/Node%20CI/badge.svg"></a>
-  <a href="https://chrome.google.com/webstore/detail/bckfpnenhimfckndcceonmkhheinmkob?utm_source=github_badge"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/bckfpnenhimfckndcceonmkhheinmkob"></a>
   <a href="https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hmartos/bitbucket-pull-request-auto-delete-branch"></a>
 </p>
-
-![Screenshot](./screenshot-full-en.png)
 
 ## Requirements
 
@@ -39,4 +31,4 @@ Just execute `npm run build` and a zip called `bitbucket-pull-request-auto-delet
 
 ## License
 
-Copyright 2019 Héctor Martos. Code released under the [MIT License](./LICENSE).
+Copyright 2023 Héctor Martos. Code released under the [MIT License](./LICENSE).

@@ -1,7 +1,7 @@
 {
   "name": "bitbucket-pull-request-auto-delete-branch",
-  "version": "0.0.1",
-  "description": "Hide movies or series from 'Continue Watching' list.",
+  "version": "0.1.0",
+  "description": "Automatically checks the checkbox to delete the current branch after the pull request is merged on Bitbucket Cloud",
   "main": "src/manifest.json",
   "scripts": {
     "build": "rm -f bitbucket-pull-request-auto-delete-branch.zip && npm run prettier-check && npm run zip",
@@ -20,7 +20,7 @@
     "branch",
     "delete"
   ],
-  "author": "hmartos <hectormartosg@gmail.com>",
+  "author": "hmartos<hectormartosg@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/issues"
