@@ -27,14 +27,20 @@ Other miscellaneous changes that don't fit into any of the above categories. Try
 
 Example:
 
-## 0.1.0
+## 0.3.0
 
-### New Features
+### Bug Fixes
 
-- First fully functional version
+- Fixes bug with checkbox not being checked when source or destination branch changed
 
 ## 0.2.0
 
 ### Bug Fixes
 
 - Fixes bug with checkbox not being checked on slow connections
+
+## 0.1.0
+
+### New Features
+
+- First fully functional version
