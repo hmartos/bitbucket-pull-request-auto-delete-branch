@@ -4,10 +4,19 @@
   <h1 align="center">Bitbucket Pull Request auto delete branch</h1>
 
   <h4 align="center">Automatically checks the checkbox to delete the current branch after the pull request is merged on Bitbucket Cloud</h4>
+
+  <p align="center">
+    <a href="https://chrome.google.com/webstore/detail/bitbucket-pull-request-au/iffllgmebelmfdfiiagjgbpjhplobfem?utm_source=github"><strong>Install for Google Chrome &raquo;</strong></a>
+  </p>
 </p>
 
 <p align="center">
+  <a href="https://chrome.google.com/webstore/detail/bckfpnenhimfckndcceonmkhheinmkob?utm_source=github_badge"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/iffllgmebelmfdfiiagjgbpjhplobfem"></a>
   <a href="https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/hmartos/bitbucket-pull-request-auto-delete-branch"></a>
+</p>
+
+<p style="text-align:center" align="center">
+  <img src="./chrome-web-store/screenshot_1.png" alt="logo">
 </p>
 
 ## Requirements

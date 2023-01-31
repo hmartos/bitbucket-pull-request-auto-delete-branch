@@ -1,13 +1,13 @@
 {
   "name": "bitbucket-pull-request-auto-delete-branch",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Automatically checks the checkbox to delete the current branch after the pull request is merged on Bitbucket Cloud",
   "main": "src/manifest.json",
   "scripts": {
     "build": "rm -f bitbucket-pull-request-auto-delete-branch.zip && npm run prettier-check && npm run zip",
     "zip": "bestzip bitbucket-pull-request-auto-delete-branch.zip src/*",
-    "prettier-check": "prettier --check './src/**/*.html' './src/**/*.css' './src/**/*.js' './test/**/*.js'",
-    "prettier-format": "prettier --write './src/**/*.html' './src/**/*.css' './src/**/*.js' './test/**/*.js'"
+    "prettier-check": "prettier --check './src/**/*.js'",
+    "prettier-format": "prettier --write './src/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "bitbucket",
+    "repository",
     "pull request",
     "PR",
     "branch",
@@ -27,7 +28,7 @@
   },
   "homepage": "https://github.com/hmartos/bitbucket-pull-request-auto-delete-branch#readme",
   "devDependencies": {
-    "bestzip": "^2.1.4",
-    "prettier": "^1.19.1"
+    "bestzip": "2.2.1",
+    "prettier": "2.8.3"
   }
 }
