@@ -27,17 +27,27 @@ Other miscellaneous changes that don't fit into any of the above categories. Try
 
 Example:
 
+## 1.0.0
+
+### Bug Fixes
+
+- Fixes bug with checkbox not being checked when source or destination branch changed (issue #3)
+
+### Other Changes
+
+- Added images, videos, and link to the Chrome Web Store listing to README.md
+
 ## 0.3.0
 
 ### Bug Fixes
 
-- Fixes bug with checkbox not being checked when source or destination branch changed
+- Fixes bug with checkbox not being checked when source or destination branch changed (issue #2)
 
 ## 0.2.0
 
 ### Bug Fixes
 
-- Fixes bug with checkbox not being checked on slow connections
+- Fixes bug with checkbox not being checked on slow connections (issue #1)
 
 ## 0.1.0
 
